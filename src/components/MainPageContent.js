@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import LocationIcon from "../assets/location-icon.png";
-import CalenderIcon from "../assets/calender-icon.png";
+import LocationIcon from "../assets/gps.svg";
+import CalenderIcon from "../assets/calender.svg";
+
 
 export default function   MainPageContent() {
   const calculateTimeLeft = () => {
@@ -69,7 +70,7 @@ export default function   MainPageContent() {
         <div className="main-section-content-timer-container">
           <h2>{timeLeft.days}</h2>
           <h2>Days</h2>
-          <h2>{timeLeft.hours}</h2>
+          <h2>{timeLeft.hours - (timeLeft.days * 24)}</h2>
           <h2>hours</h2>
           <h2>{timeLeft.minutes}</h2>
           <h2>Minutes</h2>
