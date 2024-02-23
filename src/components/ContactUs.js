@@ -26,42 +26,66 @@ export default function ContactUs() {
           </p>
         </div>
       </div>
-      
+
       <div className="contact-us-section">
         <div>
           <p>Student Coordinator</p>
           <h1>Shivkumar Paun</h1>
           <div>
-            <img src={Mail} alt="" />
-            <img src={Whatsapp} alt="" />
-            <img src={Call} alt="" />
+            <a href="mailto:shivkumarpaun.118490@marwadiuniversity.ac.in">
+              <img src={Mail} alt="" />
+            </a>
+            <a href="https://wa.me/+919428074070">
+              <img src={Whatsapp} alt="" />
+            </a>
+            <a href="tel:+919428074070">
+              <img src={Call} alt="" />
+            </a>
           </div>
         </div>
         <div>
           <p>Student Coordinator</p>
           <h1>Ayush Vora</h1>
           <div>
-            <img src={Mail} alt="" />
-            <img src={Whatsapp} alt="" />
-            <img src={Call} alt="" />
+            <a href="mailto:ayush.vora119460@marwadiuniversity.ac.in">
+              <img src={Mail} alt="" />
+            </a>
+            <a href="https://wa.me/+919265957642">
+              <img src={Whatsapp} alt="" />
+            </a>
+            <a href="tel:+919265957642">
+              <img src={Call} alt="" />
+            </a>
           </div>
         </div>
         <div>
           <p>Student Coordinator</p>
           <h1>Savan Bhanderi</h1>
           <div>
-            <img src={Mail} alt="" />
-            <img src={Whatsapp} alt="" />
-            <img src={Call} alt="" />
+            <a href="mailto:i@sa1.dev">
+              <img src={Mail} alt="" />
+            </a>
+            <a href="https://wa.me/+917574002467">
+              <img src={Whatsapp} alt="" />
+            </a>
+            <a href="tel:+917574002467">
+              <img src={Call} alt="" />
+            </a>
           </div>
         </div>
         <div>
           <p>Student Coordinator</p>
           <h1>Meet Senjaliya</h1>
           <div>
-            <img src={Mail} alt="" />
-            <img src={Whatsapp} alt="" />
-            <img src={Call} alt="" />
+            <a href="mailto:meet.senjaliya116920@marwadiuniversity.ac.in">
+              <img src={Mail} alt="" />
+            </a>
+            <a href="https://wa.me/+919904239048">
+              <img src={Whatsapp} alt="" />
+            </a>
+            <a href="tel:+919904239048">
+              <img src={Call} alt="" />
+            </a>
           </div>
         </div>
       </div>

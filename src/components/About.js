@@ -5,8 +5,8 @@ import Calender from "../assets/calender.svg";
 export default function About() {
   return (
     <>
-    <div className="about-section-first-line"><p>THIS EVENT IS ONLY FOR DIPLOMA STUDENTS</p></div>
-      <div className="about-section">
+    <div className="about-section-first-line" id="about"><p>THIS EVENT IS ONLY FOR DIPLOMA STUDENTS</p></div>
+      <div className="about-section" >
         <div className="about-section-content">
           <h2>About This Event</h2>
           <p>

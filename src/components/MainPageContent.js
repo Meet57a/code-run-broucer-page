@@ -61,8 +61,8 @@ export default function   MainPageContent() {
 
       <div className="main-section-content-fifth-line-container">
         <div className="main-section-content-fifth-line-container-btn">
-          <button>Register Now!</button>
-          <button>Visit More Info</button>
+          <a href="https://mufest.marwadiuniversity.ac.in:553/(S(k2pqniprr411y1gpp1d5wqay))/EventDetail.aspx?ID=355"><button>Register Now!</button></a>
+          <a href='#about'><button>Visit More Info</button></a>
         </div>
       </div>
 

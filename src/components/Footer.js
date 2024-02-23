@@ -14,7 +14,7 @@ export default function Footer() {
         <b>Credits</b>
         <p>Designed and developed by Meet</p>
       </div>
-      <button>Register</button>
+      <a href="https://mufest.marwadiuniversity.ac.in:553/EventDetail.aspx?ID=355"><button>Register</button></a>
     </div>
   );
 }
